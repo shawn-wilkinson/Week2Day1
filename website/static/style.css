@@ -1,0 +1,33 @@
+body{
+  background-color: #552288;
+  color:lime;
+  text-align:center;
+
+}
+h1{
+  font-family: fantasy;
+  font-size: 20;
+  text-shadow:2px 1px black;
+  animation: blinker .05s linear infinite;
+}
+
+span{
+  animation: blinker .6s linear infinite;
+}
+
+form{
+  animation: blinker .3s linear infinite;
+}
+
+#jet{
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/Sukhoi_T-50_Maksimov.jpg');
+  animation: blinker .9s linear infinite;
+}
+
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}

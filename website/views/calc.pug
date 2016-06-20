@@ -1,0 +1,15 @@
+doctype html
+html(lang='en')
+  head
+    title My calc
+    link(href='/style.css', rel='stylesheet')
+  body
+    h1 Enter stuff here:
+    form(action='/calc',method='post')
+      input(type='number', name='x', value= x)
+      input(type='text', name='op', value= op)
+      input(type='number', name='y', value= y)
+      input(type='submit', value='CALCULATE!')
+    span= result
+
+    div#jet
